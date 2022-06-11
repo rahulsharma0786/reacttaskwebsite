@@ -1,13 +1,187 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Roboto",sans-serif;
+background-color:whitesmoke;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+padding: 20px;
+background-color: white;
+height: 10vh;
+
+
+}
+.admin{
+   width: 5vh;
+   margin-left: 150vh;
+   border-radius: 50px;
+   
+   
+}
+.toggler{
+	width:25px;
+	
+}
+
+.sidenav{
+
+width:240px;
+background:white;
+position: absolute;
+height: 95vh;
+padding: 0 40px;
+left: -100%;
+transition: all 0.3s;
+}
+
+.sidenav.active{
+	left:0;
+}
+ul{
+padding: 15px;
+
+}
+.logo{
+	padding-top: 20px;
+	width: 150px;
+	border-radius: 40px;
+}  
+
+
+
+ul li{
+ list-style-type: none;
+ margin: 10px 0;
+
+
+
+}
+ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 16px;
+   }
+   ul li a{
+	color:grey;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 10px 15px;
+	border-radius: 6px;
+   }
+
+   ul li a:hover,
+   ul li a.active{
+ background-color: #172b4d;
+  
+
+   }
+   .fa-qrcode{
+  margin-right: 15px;
+   }
+   .fa-link{
+	margin-right: 15px;
+   }
+   .fa-calendar-week{
+	margin-right: 15px;
+   }
+   .fa-sliders-h{
+	margin-right: 15px;
+   }
+
+   .box{
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: row wrap;
+      width: 50vh;
+      height: 110px;
+      background-color: white;
+      border-radius: 20px;
+      float: left;;
+   }
+
+
+.todo {
+margin-top: 5px;
+margin-bottom: 10px;
+width: 100px;
+margin-left: 10px;
+border-radius: 20px;
+
+
+}   
+
+
+h3{
+   display: block;
+margin-top: 60px;
+
+
+
+}
+h4{
+   margin-top: 5px;
+margin-left: 10px;
+
+}
+
+@media (max-width:800px) {
+   
+      .admin{
+         width: 35px;
+         margin-left: 30vh;
+         border-radius: 50px;
+         
+         
+      }
+      header{
+         padding: 20px;
+         background-color: white;
+         height: 10vh;
+         width: 320px;
+         
+         
+         }
+
+         .box{
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: row wrap;
+            width: 45vh;
+            height: 110px;
+            background-color: white;
+            border-radius: 20px;
+            float: left;;
+         }
+      
+      
+      .todo {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 100px;
+      margin-left: 10px;
+      border-radius: 20px;
+      
+      
+      }   
+      
+      
+      h3{
+         display: block;
+      margin-top: 60px;
+      
+      
+      
+      }
+      h4{
+         margin-top: 5px;
+      margin-left: 10px;
+      
+      }
+
 }
