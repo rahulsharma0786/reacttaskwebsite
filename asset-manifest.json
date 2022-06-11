@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reacttaskwebsite/static/css/main.179f51be.css",
+    "main.js": "/reacttaskwebsite/static/js/main.0becee81.js",
+    "static/media/todo3.jpg": "/reacttaskwebsite/static/media/todo3.7ae88d5f37d29d372601.jpg",
+    "index.html": "/reacttaskwebsite/index.html",
+    "main.179f51be.css.map": "/reacttaskwebsite/static/css/main.179f51be.css.map",
+    "main.0becee81.js.map": "/reacttaskwebsite/static/js/main.0becee81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.179f51be.css",
+    "static/js/main.0becee81.js"
+  ]
+}
